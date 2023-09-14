@@ -204,7 +204,7 @@ font-size: 15px;
 
 .bgr-home-triangle-left {
 
-	background: url("");
+	background: url("../images/background/abs_left_triangles.webp");
 
 	background-repeat:no-repeat;
 
@@ -228,7 +228,7 @@ font-size: 15px;
 
 .bgr-home-triangle-right {
 
-	background: url("images/abs_right_triangles.png");
+	background: url("../images/background/abs_right_triangles.webp");
 
 	background-repeat:no-repeat;
 
@@ -500,7 +500,9 @@ font-size: 15px;
 
  {
 
-  color: #0433bc;
+  color: #F42703;
+
+  font-family: poppins, sans-serif;
 
   display: block;
 
@@ -931,7 +933,7 @@ font-size: 15px;
 
 #home-panel-services .content .services-box-big h2 {
 
-  color: #fff;
+  color: red;
 
   font-family: "Conv_SansSerifBookFLF";
 
@@ -1186,6 +1188,7 @@ font-size: 15px;
 }
 
 .losangle-group .losangle {
+  border-radius: 50%;
 
   position: absolute;
 
@@ -1249,7 +1252,7 @@ font-size: 15px;
 
  {
 
-  background-color: #0231bb;
+  background-color: #F42703;
 
 }
 
@@ -2023,7 +2026,7 @@ border-right:medium none;
 
 .our-clients-triangle-left{
 
-	background-image: url("images/whateever_you_need_left_section.jpg");
+	background-image: url("../images/background/whateever_you_need_left_section.webp");
 
 	background-repeat:no-repeat;
 
@@ -2067,7 +2070,7 @@ border-right:medium none;
 
 .our-clients-triangle-right{
 
-	background: url("images/whateever_you_need_right_section.jpg");
+	background: url("../images/background/whateever_you_need_right_section.webp");
 
 	background-repeat:no-repeat;
 
@@ -2249,7 +2252,8 @@ border-right:medium none;
 
   padding: 0 15px;
 
-  color: #ff0000;
+  color: #F42703;
+
 
   font-style: italic;
 
@@ -2330,7 +2334,7 @@ border-right:medium none;
 
 .contact-us-form h1 {
 
-  color: #0231bb;
+  color: #F42703;
 
   font-family: "Conv_SansSerifBookFLF";
 
@@ -2348,7 +2352,7 @@ border-right:medium none;
 
 .site_footer {
 
-  background-color: #0231bb;
+  background-color: #F42703;
 
   clear: both;
 
@@ -5906,10 +5910,10 @@ body.page.page-id-104.page-parent.page-child.parent-pageid-34.page-template.page
 .contact_side_label{
 	
  
- background:#fff; 
+ background:#F42703; 
  position:fixed; 
  z-index:10001; 
- color:#0231BB; 
+ color: #fff;
  width:30px; 
  padding:10px; 
  font-size:13px; 
@@ -5924,9 +5928,9 @@ body.page.page-id-104.page-parent.page-child.parent-pageid-34.page-template.page
  cursor: pointer;
  }
  .contact_side_label:hover{ 
- background:#0231BB; 
- color:#fff; 
- border:1px solid #0231BB; 
+ background:#fff; 
+ color:#F42703; 
+ border:1px solid #F42703;
  border-left:none; text-decoration:none;
  }
  #contact_side_dropbox{ 

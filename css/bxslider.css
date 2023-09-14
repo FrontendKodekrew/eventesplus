@@ -66,6 +66,8 @@
 /* PAGER */
 
 .bx-wrapper .bx-pager {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 	font-size: .85em;
 	font-family: Arial;
